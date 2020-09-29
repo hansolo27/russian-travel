@@ -1,0 +1,28 @@
+.header__subtitle{
+  font-size: 30px;
+  font-family: Inter;
+  text-align: center;
+  line-height: 36px;
+  color:#FFFFFF;
+}
+@media screen and (min-width:1280px){
+  .header__subtitle{
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (max-width:320px){
+  .header__subtitle{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width:425px){
+  .header__subtitle{
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 44px;
+  }
+}

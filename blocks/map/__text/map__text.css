@@ -1,0 +1,25 @@
+.map__text{
+  margin-left: 48px;
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width:1280px){
+  .map__text{
+    margin-left: 148px;
+  }
+}
+@media screen and (max-width:768px){
+  .map__text{
+    margin-left: 24px;
+  }
+}
+@media screen and (max-width:320px){
+  .map__text{
+    margin-left: 16px;
+  }
+}

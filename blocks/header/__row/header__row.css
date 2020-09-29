@@ -1,0 +1,23 @@
+.header__row{
+  max-width:100%;
+  display:flex;
+  justify-content: space-between;
+  margin:0 48px;
+}
+@media screen and (min-width:1280px){
+  .header__row{
+    margin-bottom: 62px;
+  }
+}
+
+@media screen and (max-width:320px){
+  .header__row{
+    margin:0 16px 56px 16px;
+  }
+}
+
+@media screen and (max-width:425px){
+  .header__row{
+    margin:0 18px 56px 18px;
+  }
+}

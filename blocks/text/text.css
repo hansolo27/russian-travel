@@ -1,0 +1,22 @@
+.text{
+  margin-top: 92px;
+  margin-left: 48px;
+  max-width:100%;
+}
+
+@media screen and (min-width:1280px){
+  .text{
+    margin-left: 148px;
+  }
+}
+@media screen and (max-width:768px){
+  .text{
+    margin-top:88px;
+    margin-left: 24px;
+  }
+}
+@media screen and (max-width:320px){
+  .text{
+    margin-top: 64px 16px 0 16px;
+  }
+}

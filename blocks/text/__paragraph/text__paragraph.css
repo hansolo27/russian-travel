@@ -1,0 +1,20 @@
+.text__paragraph{
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 16px;
+  line-height:163%;
+  margin-bottom: 32px;
+  max-width: 690px;
+}
+
+@media screen and (max-width:768px){
+  .text__paragraph{
+    max-width: 720px;
+  }
+}
+@media screen and (max-width:320px){
+  .text__paragraph{
+    max-width: 288px;
+    font-size: 16px;
+  }
+}
