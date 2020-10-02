@@ -1,0 +1,7 @@
+@media screen and (max-width:720px){
+  .footer__name{
+    font-size: 14px;
+    line-height: 14px;
+    align-self: start;
+  }
+}

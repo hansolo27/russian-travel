@@ -1,0 +1,18 @@
+@media screen and (max-width:1024px){
+  .images__image{
+    min-height: 225px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .images__image{
+    justify-self: stretch;
+    min-height: 264px;
+  }
+}
+
+@media screen and (max-width:320px){
+  .images__image{
+    min-height:216px;
+  }
+}

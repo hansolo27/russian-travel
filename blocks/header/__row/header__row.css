@@ -12,12 +12,21 @@
 
 @media screen and (max-width:320px){
   .header__row{
-    margin:0 16px 56px 16px;
+    width:288px;
   }
+  
 }
 
 @media screen and (max-width:425px){
   .header__row{
     margin:0 18px 56px 18px;
   }
+}
+@media screen and (max-width:768px){
+  .header__row{
+    margin: 0;
+    max-width: 720px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }  
 }

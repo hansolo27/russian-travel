@@ -1,0 +1,40 @@
+.baikal__row{
+  margin: 0 auto;
+  max-width: 1184px;
+  min-height: 740px;
+  display: block;
+  background-image: url('../../../images/images1280/__backgroundbaikal-min.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+.baikal__row:hover{
+  opacity:80%;
+}
+
+@media screen and (max-width:1279px) and (min-width:1024px){
+  .baikal__row{
+    max-width: 1024px;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width:1023px) and (min-width:768px){
+  .baikal__row{
+    max-width: 768px;
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width:767px) and (min-width:320px){
+  .baikal__row{
+    background-image: url('../../../images/images1280/__backgroundbaikal320-min.png');
+    max-width: 320px;
+    min-height:200px;
+  }
+}
+

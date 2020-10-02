@@ -1,0 +1,15 @@
+.places__links{
+  grid-area:links;
+  align-self: end;
+}
+
+@media screen and (max-width:425px){
+  .places__links{
+    display:none;
+  }
+}
+@media screen and (max-width:768px){
+  .places__links{
+    align-self: end;
+  }
+}
