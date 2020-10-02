@@ -24,7 +24,6 @@
 }
 @media screen and (max-width:768px){
   .header__row{
-    margin: 0;
     max-width: 720px;
     margin: 0 auto;
     justify-content: space-between;

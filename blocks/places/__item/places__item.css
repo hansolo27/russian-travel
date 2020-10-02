@@ -6,7 +6,7 @@
   grid-template-columns:minmax(440px, 1fr) minmax(456px, 1fr);
   grid-template-areas:
   "title links"
-  "image text"
+  "image text";
 }
 
 @media screen and (min-width:1280px){
@@ -24,7 +24,6 @@
 
 @media screen and (max-width:768px){
   .places__item{
-    grid-template-columns:minmax(340px, 1fr) minmax(352px, 1fr);
     column-gap:28px;
     margin: 0;
     margin-bottom: 77px;
