@@ -1,8 +1,7 @@
-.header__subtitle{
+.map__subtitle{
   padding: 0;
   border: 0;
   font-size: 30px;
-  font-family: Inter;
   text-align: center;
   line-height: 36px;
   color:#FFFFFF;
@@ -10,13 +9,13 @@
   margin: 0 auto;
 }
 @media screen and (min-width:1280px){
-  .header__subtitle{
+  .map__subtitle{
     margin-bottom: 64px;
   }
 }
 
 @media screen and (max-width:320px){
-  .header__subtitle{
+  .map__subtitle{
     font-size: 16px;
     line-height: 20px;
 
@@ -24,14 +23,22 @@
 }
 
 @media screen and (max-width:425px){
-  .header__subtitle{
+  .map__subtitle{
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 40px;
   }
 }
 @media screen and (max-width:1024px) and (min-width:767px){
-  .header__subtitle{
+  .map__subtitle{
     margin-bottom: 56px;
+  }
+}
+@media screen and (min-width:426px) and (max-width:469px){
+  .map__subtitle{
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 350px;
+    margin: 0 auto;
   }
 }

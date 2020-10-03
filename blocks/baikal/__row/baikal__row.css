@@ -17,7 +17,7 @@
   content: '';
   background: transparent;
   position: absolute;
-  background-color: 42,44,47,1;
+  background-color: rgba(42, 44, 47, 1);
   opacity: 30%;
   top:0;
   left:0;
