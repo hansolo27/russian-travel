@@ -1,3 +1,6 @@
+.images__image{
+  object-fit: cover;
+}
 @media screen and (max-width:1024px){
   .images__image{
     min-height: 225px;

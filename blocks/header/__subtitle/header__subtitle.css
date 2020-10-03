@@ -1,9 +1,13 @@
 .header__subtitle{
+  padding: 0;
+  border: 0;
   font-size: 30px;
   font-family: Inter;
   text-align: center;
   line-height: 36px;
   color:#FFFFFF;
+  max-width: 640px;
+  margin: 0 auto;
 }
 @media screen and (min-width:1280px){
   .header__subtitle{

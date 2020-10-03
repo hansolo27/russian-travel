@@ -1,5 +1,9 @@
 .footer__links{
+  padding: 0;
+  margin: 0;
+  border: 0;
   display:flex;
+  list-style: none;
 }
 
 @media screen and (max-width:720px){

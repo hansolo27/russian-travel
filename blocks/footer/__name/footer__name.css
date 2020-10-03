@@ -1,3 +1,6 @@
+.footer__name{
+  margin: 0;
+}
 @media screen and (max-width:720px){
   .footer__name{
     font-size: 14px;

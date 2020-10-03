@@ -1,0 +1,7 @@
+.footer__link_color_white{
+  color:#FFFFFF;
+  text-decoration: none;
+}
+.footer__link_color_white:hover{
+  opacity:80%;
+}
